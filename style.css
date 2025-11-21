@@ -11,6 +11,11 @@ body {
     color: #333;
     line-height: 1.6;
 }
+/* 2. Body overflow control */
+body {
+    overflow-x: hidden; /* Prevents horizontal scroll */
+    overflow-y: auto;   /* Allows vertical scroll only when needed */
+}
 
 /* Navbar styles */
 .navbar {
